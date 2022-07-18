@@ -1,6 +1,10 @@
-import { Link, Outlet } from 'react-router-dom';
+import { NavLink, Outlet } from 'react-router-dom';
+
+import logoImg from '../../assets/images/logo.png';
 
 import MainContent from '../main-content/main-content.component';
+
+import './navbar.styles.scss';
 
 const navigationLinks = [
   {
@@ -23,24 +27,31 @@ const navigationLinks = [
 export default function Navbar() {
   return (
     <>
-      <header className="header">
-        <div className="header__content">
-          <Link to="/">
-            <span className="header__logo">Logo</span>
-          </Link>
+      <header className="navbar">
+        <NavLink
+          className="navbar__logo"
+          to="/"
+        >
+          <img src={logoImg} alt="logo" className="navbar__logo-img" />
+          <p className="navbar__logo-text">Space Travelers&apos; Hub</p>
+        </NavLink>
 
-          <nav className="header__nav">
-            <ul className="header__nav-list">
-              {navigationLinks.map(({ id, title, route }) => (
-                <li key={id}>
-                  <Link className="header__nav-link" to={route}>
-                    {title}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </nav>
-        </div>
+        <nav className="navbar__nav">
+          <ul className="navbar__nav-list">
+            {navigationLinks.map(({ id, title, route }) => (
+              <li key={id}>
+                <NavLink
+                  className={({ isActive }) => (isActive
+                    ? 'navbar__nav-link navbar__nav-link--active'
+                    : 'navbar__nav-link')}
+                  to={route}
+                >
+                  {title}
+                </NavLink>
+              </li>
+            ))}
+          </ul>
+        </nav>
       </header>
       <MainContent>
         <Outlet />
