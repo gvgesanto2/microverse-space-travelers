@@ -8,7 +8,7 @@ const RocketsList = () => {
   return (
     <section className="rocket-list-container">
       {rockets.map((rocket) => (
-        <Rocket img={rocket.flickr_images} description={rocket.description} name={rocket.rocket_name} key={rocket.key} />
+        <Rocket img={rocket.flickr_images[0]} description={rocket.description} name={rocket.rocket_name} key={rocket.id} id={rocket.id}/>
       ))}
     </section>
   );

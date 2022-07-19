@@ -3,9 +3,9 @@ const FETCH_ROCKET = 'spaceTravelers/rockets/FETCH_ROCKET';
 // const RESERVE_ROCKET = 'spaceTravelers/rockets/RESERVE_ROCKET';
 
 // Create function to add rocket
-const fetchRocket = (getRockets) => ({
+const fetchRocket = (Rockets) => ({
   type: FETCH_ROCKET,
-  rockets: getRockets,
+  rockets: Rockets,
 });
 
 // id: rocket.key,
@@ -24,17 +24,17 @@ const rocketReducer = (state = [], action = {}) => {
     case FETCH_ROCKET:
       return action.rockets;
 
-    // case RESERVE_ROCKET:
-    //   return state.map(id => {
-    //     if(action.id !== id) 
-    //         return state;
-    //     return { ...state, reserved: true };
-    // });
+      // case RESERVE_ROCKET:
+      //   return state.map(id => {
+      //     if(action.id !== id)
+      //         return state;
+      //     return { ...state, reserved: true };
+      // });
 
     default:
       return state;
   }
-}
+};
 
 export { fetchRocket };
 export default rocketReducer;

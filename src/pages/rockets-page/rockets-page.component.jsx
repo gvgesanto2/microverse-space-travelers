@@ -1,8 +1,12 @@
 import React from "react";
+import RocketsList from "../../components/rockets/rocketsList/RocketsList.component";
 
 const RocketsPage = () => {
   return (
-  <div>Rockets</div>
+  <div>
+    <h1>Rockets</h1>
+    <RocketsList />
+  </div>
   );
 }
 

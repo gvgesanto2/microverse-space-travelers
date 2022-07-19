@@ -1,13 +1,12 @@
-import { configureStore } from "@reduxjs/toolkit";
-import { combineReducers } from "redux";
-import rocketReducer from "./rocket/rocket.reducer";
-import getRocketsFromApi from "./rocket/rocketApiAction";
+import { configureStore } from '@reduxjs/toolkit';
+import { combineReducers } from 'redux';
+import rocketReducer from './rocket/rocket.reducer';
+import getRocketsFromApi from './rocket/rocketApiAction';
 
 // Initial Data
 const preloadedState = {
   rockets: [],
-  categories: [],
-}
+};
 
 // Establish the root reducer
 const rootReducer = combineReducers({
@@ -20,6 +19,6 @@ const ulisesStore = configureStore({
   preloadedState,
 });
 
-ulisesStore.dispatch(getRocketsFromApi);
+ulisesStore.dispatch(getRocketsFromApi());
 
 export default ulisesStore;
