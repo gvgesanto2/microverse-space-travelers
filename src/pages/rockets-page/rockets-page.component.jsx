@@ -1,3 +1,9 @@
-export default function RocketsPage() {
-  return (<div>Rockets</div>);
+import React from "react";
+
+const RocketsPage = () => {
+  return (
+  <div>Rockets</div>
+  );
 }
+
+export default RocketsPage;

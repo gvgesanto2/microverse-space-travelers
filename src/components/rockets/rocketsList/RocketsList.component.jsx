@@ -1,9 +1,10 @@
 import React from "react";
-// import { useSelector } from "react-redux/es/exports";
+import { useSelector } from "react-redux/es/exports";
 import Rocket from "../rocket/Rocket.component";
 
 const RocketsList = () => {
-  const rockets = [];
+  const rockets = useSelector(state => state.rockets);
+
   return (
     <section className="rocket-list-container">
       {rockets.map((rocket) => (
