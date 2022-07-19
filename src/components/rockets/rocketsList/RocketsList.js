@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux/es/exports';
 import Rocket from '../rocket/Rocket';
 
 const RocketsList = () => {
-  const rockets = useSelector((state) => state.rockets);
+  const rockets = useSelector((state) => state.rockets.rockets);
 
   return (
     <section className="rocket-list-container">

@@ -5,7 +5,7 @@ const FETCH_ROCKET = 'spaceTravelers/rockets/FETCH_ROCKET';
 // Create function to add rocket
 const fetchRocket = (Rockets) => ({
   type: FETCH_ROCKET,
-  rockets: Rockets,
+  payload: Rockets,
 });
 
 // const reserveRocket = (rocket) => ({
@@ -13,11 +13,17 @@ const fetchRocket = (Rockets) => ({
 //   id: rocket.key,
 // });
 
+const preloadedState = {
+  rockets: [],
+};
+
 // Reducer for the Rocket
-const rocketReducer = (state = [], action = {}) => {
+const rocketReducer = (state = preloadedState, action = {}) => {
   switch (action.type) {
     case FETCH_ROCKET:
-      return action.rockets;
+      return {
+        rockets: action.payload,
+      };
 
       // case RESERVE_ROCKET:
       //   return state.map(id => {
