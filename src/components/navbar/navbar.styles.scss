@@ -37,11 +37,11 @@ $nav-list-gap: 3rem;
     }
 
     & > li:nth-last-child(2) {
-      margin-right: $nav-list-gap / 2;
+      margin-right: calc($nav-list-gap / 2);
     }
 
     & > li:last-child {
-      padding-left: $nav-list-gap / 2;
+      padding-left: calc($nav-list-gap / 2);
       border-left: 2px solid #ccc;
     }
   }
