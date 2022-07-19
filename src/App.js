@@ -1,9 +1,9 @@
 import { Route, Routes } from 'react-router-dom';
-import Navbar from './components/navbar/navbar.component';
+import Navbar from './components/navbar/navbar';
 
-import MissionsPage from './pages/missions-page/missions-page.component';
-import MyProfile from './pages/my-profile/my-profile.component';
-import RocketsPage from './pages/rockets-page/rockets-page.component';
+import MissionsPage from './pages/missions-page/missions-page';
+import MyProfile from './pages/my-profile/my-profile';
+import RocketsPage from './pages/rockets-page/rockets-page';
 
 function App() {
   return (

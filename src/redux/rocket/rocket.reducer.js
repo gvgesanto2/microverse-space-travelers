@@ -8,11 +8,6 @@ const fetchRocket = (Rockets) => ({
   rockets: Rockets,
 });
 
-// id: rocket.key,
-// name: rocket.rocket_name,
-// description: rocket.description,
-// image: rocket.flickr_images[0]
-
 // const reserveRocket = (rocket) => ({
 //   type: RESERVE_ROCKET,
 //   id: rocket.key,
