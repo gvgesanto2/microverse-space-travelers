@@ -9,11 +9,13 @@ const RocketsList = () => {
     <section className="rocket-list-container">
       {rockets.map((rocket) => (
         <Rocket
-          img={rocket.flickr_images[0]}
+          img={rocket.rocketImage}
           description={rocket.description}
-          name={rocket.rocket_name}
+          name={rocket.name}
           key={rocket.id}
           id={rocket.id}
+          reserve={rocket.reserve}
+          rocket={rocket}
         />
       ))}
     </section>

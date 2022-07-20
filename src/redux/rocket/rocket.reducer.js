@@ -1,6 +1,6 @@
 // Const for the Actions
 const FETCH_ROCKET = 'spaceTravelers/rockets/FETCH_ROCKET';
-// const RESERVE_ROCKET = 'spaceTravelers/rockets/RESERVE_ROCKET';
+const TOGGLE_ROCKET = 'spaceTravelers/rockets/TOGGLE_ROCKET';
 
 // Create function to add rocket
 const fetchRocket = (Rockets) => ({
@@ -8,11 +8,12 @@ const fetchRocket = (Rockets) => ({
   payload: Rockets,
 });
 
-// const reserveRocket = (rocket) => ({
-//   type: RESERVE_ROCKET,
-//   id: rocket.key,
-// });
+const toggleRocket = (id) => ({
+  type: TOGGLE_ROCKET,
+  payload: id,
+});
 
+// Initial State
 const preloadedState = {
   rockets: [],
 };
@@ -25,17 +26,18 @@ const rocketReducer = (state = preloadedState, action = {}) => {
         rockets: action.payload,
       };
 
-      // case RESERVE_ROCKET:
-      //   return state.map(id => {
-      //     if(action.id !== id)
-      //         return state;
-      //     return { ...state, reserved: true };
-      // });
+    case TOGGLE_ROCKET:
+      return state.map((id) => {
+        if (state.id !== id) {
+          return state;
+        }
+        return { ...state, reserve: !state.rocket.reserve };
+      });
 
     default:
       return state;
   }
 };
 
-export { fetchRocket };
+export { fetchRocket, toggleRocket };
 export default rocketReducer;
