@@ -2,6 +2,8 @@ import { useSelector } from 'react-redux';
 import { selectMissions } from '../../redux/mission/mission.selectors';
 import MissionItem from '../mission-item/mission-item.component';
 
+import './missions-table.styles.scss';
+
 const missionsTableHeaders = [
   {
     id: 1,

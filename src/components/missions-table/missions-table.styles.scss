@@ -1,0 +1,25 @@
+.missions-table {
+  border-collapse: collapse;
+
+  &, th, tr, td {
+    border: 1px solid #ddd;
+  }
+
+  th {
+    text-align: left;
+    text-transform: capitalize;
+    background-color: var(--color-white);
+    padding:  1rem 0.6rem;
+  }
+
+  & tr:nth-child(odd) {
+    background-color: #dde3e6;
+    background-color: #e3e7e9;
+    background-color: #e4e4e4;
+    background-color: #eee;
+  }
+
+  & tr:nth-child(even) {
+    background-color: var(--color-white);
+  }
+}

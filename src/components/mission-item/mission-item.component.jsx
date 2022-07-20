@@ -4,6 +4,8 @@ import { Fragment } from 'react';
 import { useDispatch } from 'react-redux/es/hooks/useDispatch';
 import { toggleMissionReserved } from '../../redux/mission/mission.actions';
 
+import './mission-item.styles.scss';
+
 export default function MissionItem({ mission }) {
   const dispatch = useDispatch();
   const {
@@ -18,12 +20,12 @@ export default function MissionItem({ mission }) {
       <td className="mission-item__description">{description}</td>
       {reserved ? (
         <Fragment>
-          <td>
+          <td className="mission-item__status-container">
             <span className="mission-item__status mission-item__status--active">
               active member
             </span>
           </td>
-          <td>
+          <td className="mission-item__btn-container">
             <button
               onClick={handleClick}
               type="button"
@@ -35,14 +37,14 @@ export default function MissionItem({ mission }) {
         </Fragment>
       ) : (
         <Fragment>
-          <td>
+          <td className="mission-item__status-container">
             <span className="mission-item__status">not a member</span>
           </td>
-          <td>
+          <td className="mission-item__btn-container">
             <button
               onClick={handleClick}
               type="button"
-              className="mission-item__btn mission-item__btn--active"
+              className="mission-item__btn"
             >
               join mission
             </button>
