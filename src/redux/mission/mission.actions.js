@@ -1,3 +1,4 @@
+/* eslint-disable camelcase */
 /* eslint-disable implicit-arrow-linebreak */
 import { fetchMissions } from '../../services/api.service';
 import { createAction } from '../../utils/reducer.utils';
@@ -18,10 +19,18 @@ export const fetchMissionsStartAsync = () => async (dispatch) => {
     const missionsArray = await fetchMissions();
     dispatch(
       fetchMissionsSuccess(
-        missionsArray.map((mission) => ({ ...mission, reserved: false })),
+        missionsArray.map(({ mission_id, mission_name, description }) => ({
+          id: mission_id,
+          name: mission_name,
+          description,
+          reserved: false,
+        })),
       ),
     );
   } catch (error) {
     dispatch(fetchMissionsFailure(error));
   }
 };
+
+export const toggleMissionReserved = (missionId) =>
+  createAction(MISSION_ACTION_TYPES.TOGGLE_MISSION_RESERVED, missionId);

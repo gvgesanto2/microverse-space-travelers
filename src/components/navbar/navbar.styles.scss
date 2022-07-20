@@ -11,6 +11,8 @@ $nav-list-gap: 3rem;
   height: var(--header-height);
   padding: 0 3rem;
   border-bottom: 1px solid #ccc;
+  background-color: #fff;
+  z-index: 100;
 
   &__logo {
     display: flex;
