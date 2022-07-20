@@ -22,15 +22,19 @@ export default function MissionsTable() {
 
   return (
     <table className="missions-table">
-      <tr>
-        {missionsTableHeaders.map(({ id, title }) => (
-          <th key={id}>{title}</th>
+      <thead>
+        <tr>
+          {missionsTableHeaders.map(({ id, title }) => (
+            <th key={id}>{title}</th>
+          ))}
+          <th>&nbsp;</th>
+        </tr>
+      </thead>
+      <tbody>
+        {missions.map((mission) => (
+          <MissionItem key={mission.id} mission={mission} />
         ))}
-        <th>&nbsp;</th>
-      </tr>
-      {missions.map((mission) => (
-        <MissionItem key={mission.id} mission={mission} />
-      ))}
+      </tbody>
     </table>
   );
 }
