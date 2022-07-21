@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-fragments */
 import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
-import './rocket.styles.css';
+import './rocket.styles.scss';
 import { useDispatch } from 'react-redux';
 import { toggleRocket } from '../../../redux/rocket/rocket.reducer';
 

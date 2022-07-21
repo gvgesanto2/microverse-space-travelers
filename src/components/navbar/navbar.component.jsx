@@ -2,7 +2,7 @@ import { NavLink, Outlet } from 'react-router-dom';
 
 import logoImg from '../../assets/images/logo.png';
 
-import MainContent from '../main-content/main-content';
+import MainContent from '../main-content/main-content.component';
 
 import './navbar.styles.scss';
 

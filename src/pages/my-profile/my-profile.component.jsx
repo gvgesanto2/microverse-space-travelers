@@ -1,4 +1,4 @@
-import RocketProfile from '../../components/rockets/rocket-profile/RocketProfile';
+import RocketProfile from '../../components/rockets/rocket-profile/RocketProfile.component';
 
 export default function MyProfile() {
   return (
