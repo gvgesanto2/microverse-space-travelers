@@ -32,7 +32,7 @@ export default function Navbar() {
           className="navbar__logo"
           to="/"
         >
-          <img src={logoImg} alt="logo" className="navbar__logo-img" />
+          <img src={logoImg} alt="Space Travelers Logo" className="navbar__logo-img" />
           <p className="navbar__logo-text">Space Travelers&apos; Hub</p>
         </NavLink>
 
