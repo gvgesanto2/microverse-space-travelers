@@ -1,0 +1,71 @@
+.rocket-card {
+  display: flex;
+}
+
+.rocket-card-img-holder {
+  margin: 2rem;
+}
+
+.rocket-card-img-holder img {
+  height: 25rem;
+  width: 25rem;
+}
+
+.rocket-card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 2rem 0;
+}
+
+.rocket-card-title {
+  font-size: 2.5rem;
+}
+
+.rocket-card-description {
+  font-size: 1.55rem;
+  line-height: 1.9rem;
+  margin: 2rem 0;
+}
+
+.rocket-card-description span {
+  color: #fff;
+  font-weight: bold;
+  background-color: #18a2b8;
+  border-radius: 4px;
+  padding: 0.3rem;
+  margin-right: 1rem;
+}
+
+.main-btn {
+  font-size: 2.4rem;
+  color: #fff;
+  border-style: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  padding: 1rem;
+}
+
+.main-btn:hover {
+  background-color: #0262c9;
+}
+
+.main-btn:active {
+  background-color: #004da0;
+}
+
+.cancel-btn {
+  border-style: solid;
+  border-color: #6d757d;
+  background-color: #fff;
+  color: #6d757d;
+}
+
+.cancel-btn:hover {
+  background-color: rgb(228, 228, 228);
+}
+
+.cancel-btn:active {
+  background-color: rgb(185, 182, 182);
+}

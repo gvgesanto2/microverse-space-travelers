@@ -2,6 +2,7 @@ import { Route, Routes } from 'react-router-dom';
 import { useEffect } from 'react';
 import { useDispatch } from 'react-redux/es/exports';
 
+import getRocketsFromApi from './redux/rocket/rocketApiAction';
 import Navbar from './components/navbar/navbar.component';
 import MissionsPage from './pages/missions-page/missions-page.component';
 import MyProfile from './pages/my-profile/my-profile.component';
@@ -13,6 +14,7 @@ function App() {
 
   useEffect(() => {
     dispatch(fetchMissionsStartAsync());
+    dispatch(getRocketsFromApi());
   }, []);
 
   return (
