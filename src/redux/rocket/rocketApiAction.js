@@ -20,7 +20,7 @@ const getRocketsFromApi = () => async (dispatch) => {
         name: rocket_name,
         rocketImage: flickr_images[0],
         description,
-        reserve: false,
+        reserved: false,
       })),
     ),
   );

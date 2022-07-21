@@ -14,7 +14,7 @@ const RocketsList = () => {
           name={rocket.name}
           key={rocket.id}
           id={rocket.id}
-          reserve={rocket.reserve}
+          reserved={rocket.reserved}
           rocket={rocket}
         />
       ))}

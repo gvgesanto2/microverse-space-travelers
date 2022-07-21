@@ -18,21 +18,32 @@ const preloadedState = {
   rockets: [],
 };
 
+// Function to Toggle Rocket
+const toggleRocketReserveId = (rockets, id) => {
+  const newState = rockets.map((rocket) => {
+    if (rocket.id !== id) {
+      return rocket;
+    }
+    return { ...rocket, reserved: !rocket.reserved };
+  });
+
+  return newState;
+};
+
 // Reducer for the Rocket
 const rocketReducer = (state = preloadedState, action = {}) => {
   switch (action.type) {
     case FETCH_ROCKET:
       return {
+        ...state,
         rockets: action.payload,
       };
 
     case TOGGLE_ROCKET:
-      return state.map((id) => {
-        if (state.id !== id) {
-          return state;
-        }
-        return { ...state, reserve: !state.rocket.reserve };
-      });
+      return {
+        ...state,
+        rockets: toggleRocketReserveId(state.rockets, action.payload),
+      };
 
     default:
       return state;

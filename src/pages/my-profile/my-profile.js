@@ -1,3 +1,9 @@
+import RocketProfile from '../../components/rockets/rocket-profile/RocketProfile';
+
 export default function MyProfile() {
-  return (<div>Profile</div>);
+  return (
+    <section className="my-profile">
+      <RocketProfile />
+    </section>
+  );
 }
