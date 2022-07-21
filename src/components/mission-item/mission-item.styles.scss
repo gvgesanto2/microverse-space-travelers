@@ -22,8 +22,7 @@
     font-weight: 700;
     white-space: nowrap;
     letter-spacing: 0.3px;
-    background-color: rgb(100, 95, 95);
-    background-color: rgb(117, 117, 117);
+    background-color: var(--color-grey-500);
     text-transform: uppercase;
     color: var(--color-white);
     border-radius: 0.5rem;
@@ -31,7 +30,7 @@
 
     &--active {
       text-transform: capitalize;
-      background-color: var(--color-primary-300);
+      background-color: var(--color-primary);
     }
   }
 
@@ -39,7 +38,7 @@
     padding: 3.2rem 1.6rem;
   }
 
-&__btn {
+  &__btn {
     font-size: 1.5rem;
     font-weight: 500;
     text-transform: capitalize;
@@ -47,20 +46,20 @@
     border: 1px solid currentColor;
     border-radius: 0.5rem;
     white-space: nowrap;
-    color: #272a32;
+    color: var(--color-grey-800);
     padding: 0.8rem 1.2rem;
     transition: all 0.2s;
 
     &:hover {
-      background-color: #272a32;
+      background-color: var(--color-grey-800);
       color: var(--color-white);
     }
 
     &--active {
-      color: #dc3545;
+      color: var(--color-red-200);
 
       &:hover {
-        background-color: #dc3545;
+        background-color: var(--color-red-200);
       }
     }
   }
