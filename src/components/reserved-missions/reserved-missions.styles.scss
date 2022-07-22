@@ -1,0 +1,32 @@
+.missions-reserved {
+  flex: 1;
+  min-width: 30rem;
+
+  &__title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.8rem;
+  }
+
+  &__list {
+    & > li:first-child {
+      border-top-left-radius: 0.3rem;
+      border-top-right-radius: 0.3rem;
+    }
+
+    & > li:last-child {
+      border-bottom-left-radius: 0.3rem;
+      border-bottom-right-radius: 0.3rem;
+    }
+
+    & > li:not(:last-child) {
+      border-bottom: none;
+    }
+  }
+
+  &__item {
+    background-color: var(--color-white);
+    border: 1px solid var(--color-grey-250);
+    padding: 1.2rem 2.4rem 3.2rem;
+  }
+}
