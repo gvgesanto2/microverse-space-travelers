@@ -3,5 +3,9 @@
     "camelcase",
     "flickr",
     "middlewares"
-  ]
-}
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": ["javascript"]
+ }

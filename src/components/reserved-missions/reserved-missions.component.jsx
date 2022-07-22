@@ -1,4 +1,4 @@
-import { useSelector } from 'react-redux/es/exports';
+import { useSelector } from 'react-redux';
 
 import { selectReservedMissions } from '../../redux/mission/mission.selectors';
 
