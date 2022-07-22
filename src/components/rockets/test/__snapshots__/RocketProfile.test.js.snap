@@ -1,10 +1,54 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Rocket Profile Renders the rocket profile component correctly 1`] = `
+exports[`My Profile page Renders my profile component correctly 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
+      <section
+        class="my-profile"
+      >
+        <div
+          class="missions-reserved"
+        >
+          <h2
+            class="missions-reserved__title"
+          >
+            My Missions
+          </h2>
+          <ul
+            class="missions-reserved__list"
+          />
+        </div>
+        <section
+          class="rocket-profile"
+        >
+          <h2>
+            My Rockets
+          </h2>
+          <p>
+            You have not reserved any rockets
+          </p>
+        </section>
+      </section>
+    </div>
+  </body>,
+  "container": <div>
+    <section
+      class="my-profile"
+    >
+      <div
+        class="missions-reserved"
+      >
+        <h2
+          class="missions-reserved__title"
+        >
+          My Missions
+        </h2>
+        <ul
+          class="missions-reserved__list"
+        />
+      </div>
       <section
         class="rocket-profile"
       >
@@ -15,18 +59,6 @@ Object {
           You have not reserved any rockets
         </p>
       </section>
-    </div>
-  </body>,
-  "container": <div>
-    <section
-      class="rocket-profile"
-    >
-      <h2>
-        My Rockets
-      </h2>
-      <p>
-        You have not reserved any rockets
-      </p>
     </section>
   </div>,
   "debug": [Function],
