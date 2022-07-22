@@ -54,6 +54,12 @@ $ npm start
 - Twitter: [@GabrielSanto997](https://twitter.com/GabrielSanto997)
 - LinkedIn: [Gabriel Santo](https://linkedin.com/in/gabriel-santo-5882a71b2/)
 
+👤 **Ulises Largaespada**
+
+- GitHub: [@ulisesedu7](https://github.com/ulisesedu7)
+- Twitter: [@LongswordMusic](https://twitter.com/LongswordMusic)
+- LinkedIn: [Ulises Largaespada](https://www.linkedin.com/in/ulises-largaespada-45570b1a4/)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
