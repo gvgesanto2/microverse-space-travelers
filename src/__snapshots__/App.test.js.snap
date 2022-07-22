@@ -1,0 +1,640 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component should render correctly with the Missions Page content 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <header
+        class="navbar"
+      >
+        <a
+          class="navbar__logo"
+          href="/"
+        >
+          <img
+            alt="Space Travelers Logo"
+            class="navbar__logo-img"
+            src="logo.png"
+          />
+          <p
+            class="navbar__logo-text"
+          >
+            Space Travelers' Hub
+          </p>
+        </a>
+        <nav
+          class="navbar__nav"
+        >
+          <ul
+            class="navbar__nav-list"
+          >
+            <li>
+              <a
+                class="navbar__nav-link"
+                href="/"
+              >
+                rockets
+              </a>
+            </li>
+            <li>
+              <a
+                aria-current="page"
+                class="navbar__nav-link navbar__nav-link--active"
+                href="/missions"
+              >
+                missions
+              </a>
+            </li>
+            <li>
+              <a
+                class="navbar__nav-link"
+                href="/my-profile"
+              >
+                my profile
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main
+        class="main"
+      >
+        <div
+          class="missions-page"
+        >
+          <table
+            class="missions-table"
+          >
+            <thead>
+              <tr>
+                <th>
+                  mission
+                </th>
+                <th>
+                  description
+                </th>
+                <th>
+                  status
+                </th>
+                <th>
+                   
+                </th>
+              </tr>
+            </thead>
+            <tbody />
+          </table>
+        </div>
+      </main>
+    </div>
+  </body>,
+  "container": <div>
+    <header
+      class="navbar"
+    >
+      <a
+        class="navbar__logo"
+        href="/"
+      >
+        <img
+          alt="Space Travelers Logo"
+          class="navbar__logo-img"
+          src="logo.png"
+        />
+        <p
+          class="navbar__logo-text"
+        >
+          Space Travelers' Hub
+        </p>
+      </a>
+      <nav
+        class="navbar__nav"
+      >
+        <ul
+          class="navbar__nav-list"
+        >
+          <li>
+            <a
+              class="navbar__nav-link"
+              href="/"
+            >
+              rockets
+            </a>
+          </li>
+          <li>
+            <a
+              aria-current="page"
+              class="navbar__nav-link navbar__nav-link--active"
+              href="/missions"
+            >
+              missions
+            </a>
+          </li>
+          <li>
+            <a
+              class="navbar__nav-link"
+              href="/my-profile"
+            >
+              my profile
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main
+      class="main"
+    >
+      <div
+        class="missions-page"
+      >
+        <table
+          class="missions-table"
+        >
+          <thead>
+            <tr>
+              <th>
+                mission
+              </th>
+              <th>
+                description
+              </th>
+              <th>
+                status
+              </th>
+              <th>
+                 
+              </th>
+            </tr>
+          </thead>
+          <tbody />
+        </table>
+      </div>
+    </main>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`App component should render correctly with the MyProfile Page content 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <header
+        class="navbar"
+      >
+        <a
+          class="navbar__logo"
+          href="/"
+        >
+          <img
+            alt="Space Travelers Logo"
+            class="navbar__logo-img"
+            src="logo.png"
+          />
+          <p
+            class="navbar__logo-text"
+          >
+            Space Travelers' Hub
+          </p>
+        </a>
+        <nav
+          class="navbar__nav"
+        >
+          <ul
+            class="navbar__nav-list"
+          >
+            <li>
+              <a
+                class="navbar__nav-link"
+                href="/"
+              >
+                rockets
+              </a>
+            </li>
+            <li>
+              <a
+                class="navbar__nav-link"
+                href="/missions"
+              >
+                missions
+              </a>
+            </li>
+            <li>
+              <a
+                aria-current="page"
+                class="navbar__nav-link navbar__nav-link--active"
+                href="/my-profile"
+              >
+                my profile
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main
+        class="main"
+      >
+        <section
+          class="my-profile"
+        >
+          <div
+            class="missions-reserved"
+          >
+            <h2
+              class="missions-reserved__title"
+            >
+              My Missions
+            </h2>
+            <ul
+              class="missions-reserved__list"
+            />
+          </div>
+          <section
+            class="rocket-profile"
+          >
+            <h2>
+              My Rockets
+            </h2>
+            <p>
+              You have not reserved any rockets
+            </p>
+          </section>
+        </section>
+      </main>
+    </div>
+  </body>,
+  "container": <div>
+    <header
+      class="navbar"
+    >
+      <a
+        class="navbar__logo"
+        href="/"
+      >
+        <img
+          alt="Space Travelers Logo"
+          class="navbar__logo-img"
+          src="logo.png"
+        />
+        <p
+          class="navbar__logo-text"
+        >
+          Space Travelers' Hub
+        </p>
+      </a>
+      <nav
+        class="navbar__nav"
+      >
+        <ul
+          class="navbar__nav-list"
+        >
+          <li>
+            <a
+              class="navbar__nav-link"
+              href="/"
+            >
+              rockets
+            </a>
+          </li>
+          <li>
+            <a
+              class="navbar__nav-link"
+              href="/missions"
+            >
+              missions
+            </a>
+          </li>
+          <li>
+            <a
+              aria-current="page"
+              class="navbar__nav-link navbar__nav-link--active"
+              href="/my-profile"
+            >
+              my profile
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main
+      class="main"
+    >
+      <section
+        class="my-profile"
+      >
+        <div
+          class="missions-reserved"
+        >
+          <h2
+            class="missions-reserved__title"
+          >
+            My Missions
+          </h2>
+          <ul
+            class="missions-reserved__list"
+          />
+        </div>
+        <section
+          class="rocket-profile"
+        >
+          <h2>
+            My Rockets
+          </h2>
+          <p>
+            You have not reserved any rockets
+          </p>
+        </section>
+      </section>
+    </main>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`App component should render correctly with the Rockets Page content 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <header
+        class="navbar"
+      >
+        <a
+          aria-current="page"
+          class="navbar__logo active"
+          href="/"
+        >
+          <img
+            alt="Space Travelers Logo"
+            class="navbar__logo-img"
+            src="logo.png"
+          />
+          <p
+            class="navbar__logo-text"
+          >
+            Space Travelers' Hub
+          </p>
+        </a>
+        <nav
+          class="navbar__nav"
+        >
+          <ul
+            class="navbar__nav-list"
+          >
+            <li>
+              <a
+                aria-current="page"
+                class="navbar__nav-link navbar__nav-link--active"
+                href="/"
+              >
+                rockets
+              </a>
+            </li>
+            <li>
+              <a
+                class="navbar__nav-link"
+                href="/missions"
+              >
+                missions
+              </a>
+            </li>
+            <li>
+              <a
+                class="navbar__nav-link"
+                href="/my-profile"
+              >
+                my profile
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main
+        class="main"
+      >
+        <div>
+          <section
+            class="rocket-list-container"
+          />
+        </div>
+      </main>
+    </div>
+  </body>,
+  "container": <div>
+    <header
+      class="navbar"
+    >
+      <a
+        aria-current="page"
+        class="navbar__logo active"
+        href="/"
+      >
+        <img
+          alt="Space Travelers Logo"
+          class="navbar__logo-img"
+          src="logo.png"
+        />
+        <p
+          class="navbar__logo-text"
+        >
+          Space Travelers' Hub
+        </p>
+      </a>
+      <nav
+        class="navbar__nav"
+      >
+        <ul
+          class="navbar__nav-list"
+        >
+          <li>
+            <a
+              aria-current="page"
+              class="navbar__nav-link navbar__nav-link--active"
+              href="/"
+            >
+              rockets
+            </a>
+          </li>
+          <li>
+            <a
+              class="navbar__nav-link"
+              href="/missions"
+            >
+              missions
+            </a>
+          </li>
+          <li>
+            <a
+              class="navbar__nav-link"
+              href="/my-profile"
+            >
+              my profile
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main
+      class="main"
+    >
+      <div>
+        <section
+          class="rocket-list-container"
+        />
+      </div>
+    </main>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

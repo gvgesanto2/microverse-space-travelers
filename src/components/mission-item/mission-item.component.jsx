@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-fragments */
 import PropTypes from 'prop-types';
 import { Fragment } from 'react';
-import { useDispatch } from 'react-redux/es/hooks/useDispatch';
+import { useDispatch } from 'react-redux';
 import { toggleMissionReserved } from '../../redux/mission/mission.actions';
 
 import './mission-item.styles.scss';

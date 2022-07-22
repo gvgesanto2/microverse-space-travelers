@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import { useEffect } from 'react';
-import { useDispatch } from 'react-redux/es/exports';
+import { useDispatch } from 'react-redux';
 
 import getRocketsFromApi from './redux/rocket/rocketApiAction';
 import Navbar from './components/navbar/navbar.component';
